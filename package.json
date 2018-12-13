@@ -6,9 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "startmon" : "nodemon index.js"
+    "startmon": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "double-ended-queue": "^2.1.0-0"
+  }
 }
