@@ -1,4 +1,4 @@
-const puzzle =  require('./puzzle_10/puzzle')
+const puzzle =  require('./puzzle_11/puzzle')
 
 console.log('****** starting ******');
 console.log('+++++++++++++++++++++++++++');
