@@ -1,7 +1,7 @@
-const puzzle =  require('./puzzle_11/puzzle')
+const puzzle =  require('./puzzle_13/puzzle')
 
 console.log('****** starting ******');
 console.log('+++++++++++++++++++++++++++');
-console.log('solution: ' ,puzzle.solve());
+puzzle.solve();
 console.log('+++++++++++++++++++++++++++');
 console.log('****** done ******');

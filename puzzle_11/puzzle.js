@@ -5,11 +5,6 @@ exports.solve = function(){
 
    let coordinates = {x: undefined, y:undefined};
    const inputs =  utils.readFileIntoStringArray('./puzzle_11/example.txt');
-
-   // console.log(calcCellPowerlevel(3,5,8));
-   // console.log(calcCellPowerlevel(122,79,57));
-   // console.log(calcCellPowerlevel(217,196,39));
-   // console.log(calcCellPowerlevel(101,153,71));
    for(let input of inputs){
       const serialNumber = Number(input);
       console.log('serialNumber', serialNumber);
@@ -44,7 +39,7 @@ exports.solve = function(){
          }
       }
    }
-   // console.log({size},{coordinatesForThisSize}, {maxForSize}); 
+    console.log({size},{coordinatesForThisSize}, {maxForSize}); 
    }
    
 }
